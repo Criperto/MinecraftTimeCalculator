@@ -1,0 +1,244 @@
+/* universal desing*/
+@font-face {
+    font-family: 'minecraft';
+    src: url('assets/Minecraft3.otf') format('opentype');
+}
+
+.youtube-button {
+      display: inline-block;
+      padding: 10px;
+      background-color: #ff0000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    
+.more-button {
+      display: inline-block;
+      padding: 10px;
+      background-color: #008a1c;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+      
+    .discord-button {
+      display: inline-block;
+      padding: 10px;
+      background-color: #7289DA;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+      
+    .github-button {
+      display: inline-block;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      }
+
+h1 {
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+    font-family: 'minecraft';
+}
+
+h2 {
+  color: antiquewhite;
+  font-size: 17px;
+  text-align: center;
+    font-family: 'minecraft';
+}
+
+h3 {
+  color: oldlace;
+  font-size: 24px;
+  text-align: center;
+    font-family: 'minecraft';
+}
+
+p {
+  color: white;
+  line-height: 1.5;
+}
+
+
+
+
+/* PC desing*/
+@media screen and (min-width: 767px) {
+    
+body {
+  background-image: url(assets/fondo2.webp);
+    background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+ @keyframes zoom {
+      0% {
+        background-size: 100%;
+      }
+      50% {
+        background-size: 150%;
+      }
+      100% {
+        background-size: 100%;
+      }
+    }    
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 50%;
+}
+
+input[type="number"]:focus {
+  border-color: #008a1c;
+    border: 3px solid #008a1c;
+}
+
+label {
+    color: white;
+    font-family: 'minecraft';
+}
+
+.form-group-time {
+    background-color: #008a1c;
+    padding: 2.5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.form-group-ticks {
+    background-color: #008a1c;
+    padding: 2.5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.result-ticks {
+    background-color: #008a1c;
+    padding: 2.5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.result-time {
+    background-color: #008a1c;
+    padding: 2.5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+    border-radius: 6px;
+}
+    
+}
+/* Movile desing*/
+@media screen and (max-width: 767px) {
+    
+body {
+  background-image: url(assets/fondo3.webp);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+    
+ @keyframes zoom {
+      0% {
+        background-size: 100%;
+      }
+      50% {
+        background-size: 150%;
+      }
+      100% {
+        background-size: 100%;
+      }
+    }
+
+input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 50%;
+}
+
+input[type="number"]:focus {
+  border-color: #008a1c;
+    border: 3px solid #008a1c;
+}
+
+label {
+    color: white;
+    font-family: 'minecraft';
+}
+
+.form-group-time {
+    background-color: #008a1c;
+    padding: 2.5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.form-group-ticks {
+    background-color: #008a1c;
+    padding: 2.5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.result-ticks {
+    background-color: #008a1c;
+    padding: 2.5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.result-time {
+    background-color: #008a1c;
+    padding: 2.5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    text-align: center;
+    border-radius: 6px;
+}
+
+}

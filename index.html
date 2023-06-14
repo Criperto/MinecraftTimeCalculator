@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Tick Calculator for Minecraft</title>
+     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="assets/icono.png">
+
+    <meta charset="utf-8"/ name="viewport" content="width=device-width, user-sxalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+  <h1>Calculadora de tiempo de Minecraft</h1>
+  
+  <h3>Convertir de Tiempo a Ticks:</h3>
+  <div class="form-group-time">
+    <label for="year-input">Año:</label>
+    <input type="number" id="year-input" min="0" placeholder="0" />
+  </div>
+  <div class="form-group-time">
+    <label for="day-input">Día:</label>
+    <input type="number" id="day-input" min="0" placeholder="0" />
+  </div>
+  <div class="form-group-time">
+    <label for="hour-input">Hora:</label>
+    <input type="number" id="hour-input" min="0" max="23" placeholder="0" />
+  </div>
+  <div class="form-group-time">
+    <label for="minute-input">Minuto:</label>
+    <input type="number" id="minute-input" min="0" max="59" placeholder="0" />
+  </div>
+  <div class="form-group-time">
+    <label for="second-input">Segundo:</label>
+    <input type="number" id="second-input" min="0" max="59" placeholder="0" />
+  </div>
+    
+    <div class="result-time">
+      <h3>Resultado:</h3>
+      <h2 id="result-ticks"></h2>
+    </div>
+  
+  <h3>Convertir de Ticks a Tiempo:</h3>
+  <div class="form-group-ticks">
+    <label for="ticks-input">Ticks:</label>
+    <input type="number" id="ticks-input" min="0" placeholder="0" />
+  </div>
+  
+    <div class="result-ticks">
+      <h3>Resultado:</h3>
+      <h2 id="result-time"></h2>
+    </div>
+    <br/>
+
+    
+    <h2>Creado por: Criperto<h2>
+    <a class="youtube-button" href="https://www.youtube.com/@Criperto_Oficial" target="_blank">
+    <i class="fab fa-youtube"></i> Youtube
+  </a>
+        <a class="discord-button" href="https://discord.com/invite/ZXJEb6bfhB" target="_blank">
+    <i class="fab fa-discord"></i> Discord
+  </a>
+        <a class="github-button" href="https://github.com/Criperto" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+        <a class="more-button" href="https://criperto.github.io/Criperto/" target="_blank">
+    <i class="fas fa-info"></i> Criperto
+  </a>
+        <p>"En algún momento seguiré mejorando esta página para hacerla aún más útil. ¡Espero que les sea de ayuda! ¡Gracias por visitarla!"</p>
+  
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</body>
+</html>
